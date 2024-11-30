@@ -3,8 +3,9 @@
 
   "item.enguica-mod.salsicha": "Salsicha",
 
-  "item.enguica-mod.salsicha_block": "Block of Salsicha",
+  "block.enguica-mod.salsicha_block": "Block of Salsicha",
 
-  "item.enguica-mod.salsicha_sword": "Salsicha Sword"
+  "item.enguica-mod.salsicha_sword": "Salsicha Sword",
+  "item.enguica-mod.salsicha_detector": "Salsicha Detector"
 
 }

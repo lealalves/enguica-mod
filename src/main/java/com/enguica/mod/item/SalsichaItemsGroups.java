@@ -20,6 +20,7 @@ public class SalsichaItemsGroups {
                         entries.add(SalsichaBlocks.SALSICHA_BLOCK);
 
                         entries.add(SalsichaItems.SALSICHA_SWORD);
+                        entries.add(SalsichaItems.SALSICHA_DETECTOR);
                     }).build());
 
 

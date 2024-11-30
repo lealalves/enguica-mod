@@ -1,6 +1,7 @@
 package com.enguica.mod.item;
 
 import com.enguica.mod.EnguicaMod;
+import com.enguica.mod.item.custom.SalsichaDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,6 +18,9 @@ public class SalsichaItems {
 
     public static final Item SALSICHA_SWORD = registerItem("salsicha_sword",
             new SwordItem(SalsichaToolMaterial.SALSICHA, 8, 4f, new FabricItemSettings()));
+
+    public static final Item SALSICHA_DETECTOR = registerItem("salsicha_detector",
+            new SalsichaDetectorItem(new FabricItemSettings().maxDamage(64)));
 
 
     private static Item registerItem(String name, Item item) {
