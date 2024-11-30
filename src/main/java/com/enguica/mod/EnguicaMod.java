@@ -1,5 +1,6 @@
 package com.enguica.mod;
 
+import com.enguica.mod.block.SalsichaBlocks;
 import com.enguica.mod.item.SalsichaItems;
 import com.enguica.mod.item.SalsichaItemsGroups;
 import net.fabricmc.api.ModInitializer;
@@ -13,8 +14,10 @@ public class EnguicaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		SalsichaItems.registerSalsichaItems();
 		SalsichaItemsGroups.registerItemsGroups();
+
+		SalsichaItems.registerSalsichaItems();
+		SalsichaBlocks.registerSalsichaBlocks();
 	}
 
 }
