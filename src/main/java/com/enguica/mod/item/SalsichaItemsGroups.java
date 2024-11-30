@@ -1,6 +1,7 @@
 package com.enguica.mod.item;
 
 import com.enguica.mod.EnguicaMod;
+import com.enguica.mod.block.SalsichaBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,9 @@ public class SalsichaItemsGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.salsicha"))
                     .icon(() -> new ItemStack(SalsichaItems.SALSICHA)).entries((displayContext, entries) -> {
                         entries.add(SalsichaItems.SALSICHA);
+
+                        entries.add(SalsichaBlocks.SALSICHA_BLOCK);
+
                         entries.add(SalsichaItems.SALSICHA_SWORD);
                     }).build());
 
